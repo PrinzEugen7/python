@@ -19,7 +19,7 @@ def main():
     # 入力画像の取得
     im = cv2.imread("test.jpg")
     # 画像に矢印を描く
-    drow_arrow(im, (100,100), (200,200), (0,0,200), 5)
+    drow_arrow(im, (50,50), (150,150), (0,0,200), 5)
     # ウィンドウ表示
     cv2.imshow("Test", im)
     cv2.waitKey(0)
